@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph.xml"
+    app:startDestination="@id/navigation_login">
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.example.thefourfragments.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/navigation_counter"
+        android:name="com.example.thefourfragments.ui.counter.CounterFragment"
+        android:label="fragment_counter"
+        tools:layout="@layout/fragment_counter" />
+    <fragment
+        android:id="@+id/navigation_calculator"
+        android:name="com.example.thefourfragments.ui.calculator.CalculatorFragment"
+        android:label="fragment_calculator"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.thefourfragments.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <!--
+NavigivatePopupTwoInclusive
+NavigivatePopupTwo
+-->
+
+</navigation>
