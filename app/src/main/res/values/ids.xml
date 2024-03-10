@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="userDescription" type="id">Hello My Name is Jake. I like hiking and flying when i
-        have the time.
-    </item>
-    <item name="profilePicture" type="id">Profile Picture</item>
-    <item name="button" type="id">Hire</item>
-</resources>
